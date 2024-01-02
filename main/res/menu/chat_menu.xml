@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--Show this option in ChatFragment, UserFragment -->
+    <item
+        android:id="@+id/add_participant"
+        android:title="Add Group Participant"
+        app:showAsAction="always"
+        android:icon="@drawable/add_participant_foreground"/>
+</menu>

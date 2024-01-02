@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InvitedCourse"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="130dp"
+            app:cardCornerRadius="60dp"
+            app:cardElevation="1dp"
+            app:cardBackgroundColor="@color/purple_700"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center">
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/invited_course"
+                        android:padding="30dp"
+                        android:textColor="@color/white"
+                        android:gravity="center_horizontal"
+                        android:layout_marginLeft="5dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Invited Course"
+                        android:layout_marginTop="25dp"
+                        android:textSize="30sp"
+                        android:textColor="@color/white"
+                        android:gravity="center_horizontal"/>
+
+                </TableRow>
+
+            </TableLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="90dp"
+            app:cardCornerRadius="40dp"
+            app:cardElevation="1dp"
+            app:cardBackgroundColor="@color/purple_700"
+            android:layout_marginTop="80dp"
+            android:layout_gravity="center">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center">
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/course_title"
+                        android:padding="40dp"
+                        android:textColor="@color/white"
+                        android:gravity="center_horizontal"
+                        android:layout_marginLeft="5dp"/>
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="Write Course Title"
+                        android:textSize="20sp"
+                        android:textColor="@color/Chat_icon_background"
+                        android:layout_weight="3"
+                        android:gravity="center_horizontal"/>
+
+                </TableRow>
+
+            </TableLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="90dp"
+            app:cardCornerRadius="40dp"
+            app:cardElevation="1dp"
+            app:cardBackgroundColor="@color/purple_700"
+            android:layout_marginTop="80dp"
+            android:layout_gravity="center">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center">
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/course_name"
+                        android:padding="40dp"
+                        android:textColor="@color/white"
+                        android:gravity="center_horizontal"
+                        android:layout_marginLeft="5dp"/>
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="write Course Name"
+                        android:textSize="20sp"
+                        android:textColor="@color/hint_color"
+                        android:layout_weight="3"
+                        android:gravity="center_horizontal"/>
+
+                </TableRow>
+
+            </TableLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <GridLayout
+            android:layout_width="390dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="120dp"
+            android:alignmentMode="alignMargins"
+            android:columnCount="2"
+            android:columnOrderPreserved="false"
+            android:rowCount="2">
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cancel"
+                android:textAllCaps="false"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:background="@drawable/button_bg"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:background="@drawable/button_bg"
+                android:textAllCaps="false"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:layout_gravity="right"/>
+
+        </GridLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,40 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="Notifications">
+
+        <SwitchPreferenceCompat
+            app:key="Notifications"
+            app:defaultValue="true"
+            app:summary="Click to switch on or off"
+            app:title="Enable Notifications " />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="Massage">
+
+        <SwitchPreferenceCompat
+            app:key="Massages"
+            app:defaultValue="true"
+            app:summary="Click to switch on or off"
+            app:title="Enable Voice Massage" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="Vibrations">
+
+        <SwitchPreferenceCompat
+            app:key="Vibrations"
+            app:defaultValue="true"
+            app:summary="Click to switch on or off"
+            app:title="Enable Vibrations" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="Alarms">
+
+        <SwitchPreferenceCompat
+            app:key="Alarms"
+            app:defaultValue="true"
+            app:summary="Click to switch on or off"
+            app:title="Enable Alarms" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
